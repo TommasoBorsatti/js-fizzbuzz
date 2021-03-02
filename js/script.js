@@ -10,6 +10,7 @@ Abbiamo visto qualcosa di particolare che possiamo usare?
 
 // 1. Inizializzo un ciclo For che vada da 1 a 100. Una Variabile Numero è definita in base al contatore i.
 
+
 for ( i = 1; i < 101; i++) {
 
   var numero = i ;
@@ -36,6 +37,6 @@ for ( i = 1; i < 101; i++) {
 
   // 6. il controllo del ciclo termina con la stampa, prima di ripetersi per l'i successivo.
   console.log(numero)
-
+  document.getElementById('lista').innerHTML += "<li>" + numero +"</li>"
 
 }
